@@ -1,0 +1,108 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: #fafafa;
+}
+
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+header {
+  .col-sm-12{
+    padding: 0;
+  }
+  .col-sm-2 {
+    img {
+      margin-top: 25px;
+      width: 100%;
+    }
+  }
+  .col-sm-8 {
+    img {
+      margin-top: 25px;
+      width: 100%;
+    }
+  }
+}
+
+//Contacts: phone, viber and VK
+.contacts {
+  a {
+    font-size: 18px;
+    .fa {
+      padding: 0 5px 0 0;
+    }
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 50px;
+    color: #666666;
+    &:hover {
+      text-decoration: none;
+      color: #3463ff;
+      transition: .5s;
+    }
+  }
+}
+
+//Navigation. NavBar
+//=======Bootstrap Navbar==============//
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+#mainNavbar {
+  a {
+    margin: 0;
+    //padding: 0;
+    padding: 15px 40px;
+  }
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+//=====================================//
+nav {
+  margin-top: 15px;
+
+  .container {
+
+    margin-bottom: 0;
+  }
+
+  .list-inline {
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+  }
+  a {
+    display: inline-block;
+    color: #666666;
+    text-transform: uppercase;
+    padding: 13px 50px;
+    &:hover {
+      background-color: #666666;
+      text-decoration: none;
+      color: #fefefe;
+      transition: .5s;
+    }
+  }
+}
+
+#searchAndCart {
+  color: #666666;
+}
+
+.fishText{
+  margin-top: 25px;
+}
