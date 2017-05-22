@@ -2,6 +2,7 @@ body {
   font-family: sans-serif;
   box-sizing: border-box;
   background-color: #fafafa;
+  //background-image: url(../img/chevrons-zigzags-pattern-blue.jpg);
 }
 
 a:hover,
@@ -12,19 +13,10 @@ a:active {
 }
 
 header {
-  .col-sm-12{
+  .col-sm-12 {
     padding: 0;
-  }
-  .col-sm-2 {
     img {
       margin-top: 25px;
-      width: 100%;
-    }
-  }
-  .col-sm-8 {
-    img {
-      margin-top: 25px;
-      width: 100%;
     }
   }
 }
@@ -103,6 +95,6 @@ nav {
   color: #666666;
 }
 
-.fishText{
+.fishText {
   margin-top: 25px;
 }

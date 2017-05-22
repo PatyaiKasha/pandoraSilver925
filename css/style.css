@@ -11,12 +11,8 @@ a:active {
 
 header .col-sm-12 {
   padding: 0; }
-header .col-sm-2 img {
-  margin-top: 25px;
-  width: 100%; }
-header .col-sm-8 img {
-  margin-top: 25px;
-  width: 100%; }
+  header .col-sm-12 img {
+    margin-top: 25px; }
 
 .contacts a {
   font-size: 18px;
