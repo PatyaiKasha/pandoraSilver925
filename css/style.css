@@ -3,6 +3,26 @@ body {
   box-sizing: border-box;
   background-color: #fafafa; }
 
+.imgBanner {
+  height: 300px;
+  background-size: cover; }
+
+.dots {
+  text-align: center; }
+
+.dot {
+  border-radius: 50%;
+  margin: 0 10px;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #08c;
+  background-color: transparent;
+  cursor: pointer; }
+
+.active-dot {
+  background-color: #3463ff; }
+
 a:hover,
 a:focus,
 a:visited,
@@ -65,5 +85,8 @@ nav {
 
 .fishText {
   margin-top: 25px; }
+
+.search-and-cart {
+  vertical-align: middle; }
 
 /*# sourceMappingURL=style.css.map */
